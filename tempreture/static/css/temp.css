@@ -1,0 +1,23 @@
+.jumbotron-extend {
+    position: relative;
+    height: 50vh;
+    min-height: 100px;
+}
+
+.jumbotron-container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h1 a {
+    color: rgb(255, 255, 255);
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 200%;
+}
+
+.temp-form textarea, .temp-form input, .temp, h2, a, temp h2 visited {
+    color: rgb(112, 189, 233);
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 150%;
+}

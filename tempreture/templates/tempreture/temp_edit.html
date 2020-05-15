@@ -1,0 +1,9 @@
+{% extends 'tempreture/base.html' %}
+
+{% block content %}
+    <h2 class='text-center'>New temp</h2>
+    <form method="POST" class="temp-form text-center">{% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="save btn btn-default" style="background-color: cornflowerblue; color:honeydew;">Save</button>
+    </form>
+{% endblock %}

@@ -12,3 +12,4 @@ class Temp(models.Model):
     def __str__(self):
         sttemp = str(self.temperture)
         return sttemp
+

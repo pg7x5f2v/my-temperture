@@ -1,0 +1,12 @@
+{% extends 'tempreture/base.html' %}
+
+{% block content %}
+<div class="temp">
+    <p class="text-center">created: {{ temp.created_date }}</p>
+    <h2 class="text-center"><a href="/">{{ temp.temperture }}</a></h2>
+    {% if user.is_authenticated %}
+        <div class="text-center"><a href="{% url 'temp_edit' pk=temp.pk %}"><i class="fas fa-pen-nib"></i></div></a>>
+    {% endif %}
+    <p></p>
+</div>
+{% endblock %}
