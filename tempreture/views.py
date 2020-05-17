@@ -7,7 +7,7 @@ from django.shortcuts import redirect
 ##import numpy as np
 from django.http import HttpResponse
 import io
-import sqlalchemy
+##import sqlalchemy
 import pandas as pd
 
 '''def plt2png():
