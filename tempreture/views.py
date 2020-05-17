@@ -3,14 +3,14 @@ from django.utils import timezone
 from .models import Temp
 from .forms import TempForm
 from django.shortcuts import redirect
-from matplotlib import pyplot as plt
+##from matplotlib import pyplot as plt
 import numpy as np
 from django.http import HttpResponse
 import io
 import sqlalchemy
 import pandas as pd
 
-def plt2png():
+'''def plt2png():
     buf = io.BytesIO()
     plt.savefig(buf, format='png', dpi=200)
     s = buf.getvalue()
@@ -33,7 +33,7 @@ def img_plot(request):
     plt.cla()
     response = HttpResponse(png, content_type='image/png')
     return response
-
+'''
 
 def temp_list(request):
     temps= Temp.objects.order_by('-created_date')

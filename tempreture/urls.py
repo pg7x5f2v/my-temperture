@@ -6,5 +6,5 @@ urlpatterns = [
     path('a/<int:pk>/', views.temp_detail, name='temp_detail'),
     path('a/new/',views.temp_new,name='temp_new'),
     path('a/<int:pk>/edit/', views.temp_edit, name='temp_edit'),
-    path('plot/', views.img_plot, name="img_plot"),
+##    path('plot/', views.img_plot, name="img_plot"),
 ]
