@@ -16,10 +16,6 @@ def plt2png():
     s = buf.getvalue()
     buf.close()
     return s
-
-# html表示view
-def analysis_screen(request):
-    return render(request, 'tempreture/analysis.html')
     
 def img_plot(request):
     # matplotを使って作図する
