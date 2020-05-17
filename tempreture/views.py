@@ -4,7 +4,7 @@ from .models import Temp
 from .forms import TempForm
 from django.shortcuts import redirect
 ##from matplotlib import pyplot as plt
-import numpy as np
+##import numpy as np
 from django.http import HttpResponse
 import io
 import sqlalchemy
