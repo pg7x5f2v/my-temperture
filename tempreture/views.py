@@ -8,7 +8,7 @@ from django.shortcuts import redirect
 from django.http import HttpResponse
 import io
 ##import sqlalchemy
-import pandas as pd
+##import pandas as pd
 
 '''def plt2png():
     buf = io.BytesIO()
